@@ -1,0 +1,63 @@
+.bg-logo {
+  padding: auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.border-title {
+  display: flex;
+  background-color: #25c9d0;
+  border: 1px solid gray;
+  border-radius: 10px;
+  flex-wrap: wrap;
+
+  h1 {
+    font-weight: bold;
+    color: white;
+  }
+}
+
+.logo-image {
+  width: 150px;
+}
+
+.card-detail {
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+  border: none!important;
+
+  .el-card__body {
+    .calendar {
+      width: 100%;
+    }
+  }
+
+
+  .el-card__header {
+     background-color: #25c9d0;
+
+
+    .card-title {
+      color: white;
+      font-weight: bold;
+      font-style: italic;
+      font-size: 20px;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    .edit-button {
+      float: right;
+      padding: 3px 0;
+      color: white;
+
+      .edit-icon {
+        width: 20px;
+      }
+    }
+  }
+
+}

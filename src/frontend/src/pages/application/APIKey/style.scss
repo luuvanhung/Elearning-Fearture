@@ -1,0 +1,61 @@
+.bt-create-api-key {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.form-create-api-key {
+  .name-input {
+    width: 80%;
+  }
+}
+
+.dialog-no-header {
+  .el-dialog__header {
+    padding: 0;
+  }
+}
+
+.api-key-form-item {
+  margin-right: 10px;
+}
+
+.api-table {
+  th {
+    background-color: #25c9d0 !important;
+    color: white !important;
+    padding: 2px 0 !important;
+  }
+
+  .el-table__header-wrapper {
+    border-radius: 0;
+  }
+}
+
+.bt-delete-api-key {
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+  background-color: transparent !important;
+}
+
+.form-create-api-key {
+  .el-form-item {
+    width: 100%;
+    display: flex !important;
+  }
+
+  .bt-create {
+    text-align: right;
+  }
+
+  .el-collapse {
+    .el-tree__empty-text {
+      color: #0000007a;
+    }
+  }
+
+  .el-form-item__content {
+    flex: 1;
+  }
+}

@@ -1,0 +1,11 @@
+version: '3.1'
+
+services:
+
+  erp:
+    image: '__DOCKER_IMAGE_NAME__'
+    restart: always
+    ports:
+      - __ERP_PORT__:8000
+    env_file:
+      - ./docker.env

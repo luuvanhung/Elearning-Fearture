@@ -1,0 +1,12 @@
+.border-taskbar {
+  display: flex;
+  border: 1px solid gray;
+  border-radius: 10px;
+  flex-wrap: wrap;
+}
+
+.btn-sync {
+  position: absolute;
+  right: 0;
+  top: 0;
+}

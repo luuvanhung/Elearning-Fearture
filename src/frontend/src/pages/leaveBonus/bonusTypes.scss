@@ -1,0 +1,32 @@
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  .el-input {
+    max-width: 600px;
+
+    input {
+      border: 1px solid rgba(0, 0, 0, 0.3);
+    }
+  }
+}
+.action {
+  cursor: pointer;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin: 0 17px;
+  &:first-child {
+    color: #19b95c;
+  }
+  &:last-child {
+    color: #fff;
+  }
+}
+.required label {
+    font-weight: bold;
+}
+.required label:after {
+    color: #e32;
+    content: ' *';
+    display:inline;
+}

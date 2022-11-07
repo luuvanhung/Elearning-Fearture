@@ -1,0 +1,19 @@
+{
+    "cluster": "__API_CLUSTER__",
+    "count": 1,
+    "enableECSManagedTags": true,
+    "enableExecuteCommand": true,
+    "launchType": "FARGATE",
+    "networkConfiguration": {
+        "awsvpcConfiguration": {
+            "subnets": [
+                "__API_SUBNET__"
+            ],
+            "securityGroups": [
+                "__API_SECURIRY_GROUP__"
+            ],
+            "assignPublicIp": "ENABLED"
+        }
+    },
+    "taskDefinition": "__DB_RESET_TASK_DEFINITION__"
+}

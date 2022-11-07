@@ -1,0 +1,97 @@
+.el-menu {
+  .nav-menu-collapsed {
+    background-color: #25c9d0;
+    position: absolute;
+    left: -300px !important;
+    top: 150px;
+    width: 0px;
+    padding: 10px 0px;
+    border-radius: 5px;
+    -webkit-transform: translate3d(-100%, 0px, 0px);
+    transform: translate3d(-100%, 0px, 0px);
+    visibility: visible;
+    transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+  }
+
+  .nav-menu-collapsed.show-sidebar {
+    left: 0 !important;
+    width: 100%;
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    transform: translate3d(0px, 0px, 0px);
+    visibility: visible;
+  }
+
+
+  .mobile-sidebar {
+    width: 100%;
+
+    .el-menu-item {
+      padding: 10px 0px !important;
+
+
+    }
+
+    .el-submenu, .el-menu-item {
+      padding: 10px 0px !important;
+
+      .el-tooltip {
+        display: flex!important;
+        justify-content: center !important;
+        align-items: center !important;
+      }
+
+    }
+    .is-active {
+      background-color: white !important;
+      border-radius: 5px!important;
+
+      .el-submenu__title {
+        background-color: white!important;
+        color: #25c9d0!important;
+      }
+
+      .filter {
+        vertical-align: middle;
+        filter: invert(58%) sepia(77%) saturate(413%) hue-rotate(134deg)
+          brightness(98%) contrast(95%);
+      }
+    }
+
+    .list-unstyled  {
+      list-style: none;
+    }
+    .el-menu--collapse {
+        width: 100%;
+    }
+
+    .el-menu-item {
+      color: white !important;
+    }
+
+    .el-submenu__title {
+      padding: 0 !important;
+      display: flex !important;
+      justify-content: center!important;
+      align-items: center!important;
+    }
+
+  }
+
+  .child-item {
+    text-decoration: none;
+
+    .item-title {
+      margin-left: 10px;
+      color: white;
+      text-transform: none;
+    }
+  }
+
+  .filter {
+    vertical-align: middle;
+    filter: invert(99%) sepia(99%) saturate(0%) hue-rotate(11deg)
+      brightness(109%) contrast(100%);
+  }
+
+}

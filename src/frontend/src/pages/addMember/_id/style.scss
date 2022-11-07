@@ -1,0 +1,63 @@
+.main-content {
+  width: 100%;
+  margin-left: 0.01%;
+  // padding:5px 0px;
+  .main-profile {
+    .pointer {
+      cursor: pointer;
+    }
+  }
+
+  .inner-addon {
+    position: relative;
+  }
+
+  .inner-addon .glyphicon {
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+  }
+
+  .right-addon .glyphicon {
+    right: 0px;
+  }
+
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+}
+
+.border {
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+.my-card {
+  background-color: #fff;
+  color: #707070;
+  padding: 10px;
+  border-radius: 0.25rem;
+  border: 1px solid #ced4da;
+  box-shadow: 0 2px 12px 0 rgb(0 0 0 / 10%);
+  transition: .3s;
+  display: flex;
+  margin: 2px;
+  justify-content: space-between;
+
+  .email {
+    font-style: italic;
+    color: #3eaeb3;
+  }
+}
+
+.img-action {
+  height: 20px;
+}
+
+.header-title {
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}

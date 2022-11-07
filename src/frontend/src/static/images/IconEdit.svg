@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 60 30">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Table_Body" data-name="Table Body" d="M0,0H60a0,0,0,0,1,0,0V20a10,10,0,0,1-10,10H10A10,10,0,0,1,0,20V0A0,0,0,0,1,0,0Z" fill="#fff"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.645" y1="1.167" x2="0.645" y2="-0.02" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00efd1"/>
+      <stop offset="1" stop-color="#00acea"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.688" y1="1.567" x2="0.688" y2="0.108" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Icon_Edit" data-name="Icon Edit" clip-path="url(#clip-path)">
+    <g id="edit" transform="translate(15.902)">
+      <path id="Path_471" data-name="Path 471" d="M27.631,78.152a.746.746,0,0,0-.746.746v6.62a2.239,2.239,0,0,1-2.237,2.237H3.728a2.239,2.239,0,0,1-2.237-2.237V66.089a2.239,2.239,0,0,1,2.237-2.237h6.62a.746.746,0,1,0,0-1.491H3.728A3.732,3.732,0,0,0,0,66.089V85.518a3.732,3.732,0,0,0,3.728,3.728h20.92a3.732,3.732,0,0,0,3.728-3.728V78.9a.746.746,0,0,0-.746-.746Zm0,0" transform="translate(0 -59.46)" fill="url(#linear-gradient)"/>
+      <path id="Path_472" data-name="Path 472" d="M192.25,1.4a3.355,3.355,0,0,0-4.745,0L174.2,14.7a.745.745,0,0,0-.191.328l-1.749,6.315a.745.745,0,0,0,.917.918l6.315-1.749a.745.745,0,0,0,.328-.191l13.3-13.3a3.359,3.359,0,0,0,0-4.745ZM175.828,15.184,186.714,4.3l3.511,3.511L179.338,18.7Zm-.7,1.407,2.8,2.805-3.88,1.075ZM192.07,5.963l-.791.791-3.511-3.511.791-.791a1.864,1.864,0,0,1,2.636,0l.875.875A1.867,1.867,0,0,1,192.07,5.963Zm0,0" transform="translate(-164.169 -0.415)" fill="url(#linear-gradient-2)"/>
+    </g>
+  </g>
+</svg>

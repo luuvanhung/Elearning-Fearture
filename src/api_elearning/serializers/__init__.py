@@ -1,0 +1,18 @@
+from .topic import TopicSerializer, TopicTitleSerializer
+from .transcript import TranscriptSerializer, ListLessonTranscriptSerializer
+from .answer import AnswerQuizSerializer
+from .question_type import QuestionTypeSerializer
+from .question import QuestionQuizDetailSerializer, QuestionSerializer
+from .quiz import QuizSerializer, QuizDetailSerializer
+from .quiz_result_detail_answer import QuizResultDetailAnswerSerializer
+from .quiz_result_detail import QuizResultDetailSerializer
+from .quiz_result import QuizResultSerializer
+from .attachment import AttachmentSerializer, AttachmentReadSerializer
+from .lesson import LessonSerializer, LessonReadSerializer
+from .chapter import ChapterSerializer, ChapterReadSerializer, ChapterAttachmentSerializer
+from .course import CourseSerializer, CourseListSerializer
+from .assignment_chapter_lesson_attachment import AssignmentChapterLessonAttachmentSerializer
+from .assignment_chapter_lesson import AssignmentChapterLessonSerializer
+from .assignment_chapter import AssignmentChapterSerializer
+from .assignment import AssignmentSerializer, AssignmentReadSerializer
+# from .transcript import TranscriptSerializer, ListLessonTranscriptSerializer

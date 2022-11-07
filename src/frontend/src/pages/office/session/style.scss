@@ -1,0 +1,132 @@
+img {
+  cursor: pointer;
+}
+
+.border-top-left-radius {
+  border-top-left-radius: 10px;
+}
+
+.border-top-right-radius {
+  border-top-right-radius: 10px;
+}
+
+.list-enter-active {
+  transition: all .3s ease;
+}
+
+.list-leave-active {
+  transition: all .5s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+
+.list-enter, .list-leave-to {
+  transform: translateX(10px);
+  opacity: 0;
+}
+
+.tableData {
+  height: auto;
+  width: 100%;
+  border-collapse: collapse;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  transition: height 0.3s ease-in-out;
+}
+
+.nameColumn {
+  width: 100%;
+  height: 3%;
+  color: #FFFFFF;
+  background: #25C9D0;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 58px;
+}
+
+.main--title {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+
+.header {
+  width: 100%;
+  color: #FFFFFF;
+  background: #25C9D0;
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 20px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.content {
+  border: 1px solid #C6C6C6;
+}
+
+.border-session {
+  border-radius: 10px;
+  margin-top: 2%;
+  box-shadow: 0 0 5px #C6C6C6;
+}
+
+.btnAddDataTable {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 16px;
+  width: 15%;
+  height: 40px;
+  background: #FFFFFF;
+  color: #707070;
+  border: 1px solid #C6C6C6;
+  border-radius: 5px;
+  margin: auto 0;
+  cursor: pointer;
+}
+
+.btnAddDataTable:hover {
+  color: #FFFFFF;
+  background: #25C9D0;
+}
+
+.addData {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 16px;
+  width: 15%;
+  height: 40px;
+  background: #FFFFFF;
+  color: #707070;
+  border: 1px solid #C6C6C6;
+  border-radius: 5px;
+  margin: 2% auto 0;
+  cursor: pointer;
+}
+
+.addData:hover {
+  color: #FFFFFF;
+  background: #25C9D0;
+}
+
+.inputName {
+  width: 80%;
+}
+
+.input-label {
+  display: inline-block;
+  width: 20%;
+}
+
+.nameColumn {
+  width: 100%;
+  height: 3%;
+  color: #FFFFFF;
+  background: #25C9D0;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 58px;
+}

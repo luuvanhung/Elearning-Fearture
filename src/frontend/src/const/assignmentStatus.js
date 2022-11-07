@@ -1,0 +1,6 @@
+export const STATUSES = {
+  IN_PROGRESS: "IN-PROGRESS",
+  COMPLETED: "COMPLETED",
+  OVERDUE: "OVERDUE",
+  OPEN: "OPEN",
+};

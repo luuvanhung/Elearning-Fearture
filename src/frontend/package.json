@@ -1,0 +1,158 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test:unit": "vue-cli-service test:unit",
+    "lint": "vue-cli-service lint",
+    "watch": "vue-cli-service build --mode development --watch"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/vue-fontawesome": "^2.0.2",
+    "@fullcalendar/common": "^5.11.3",
+    "@fullcalendar/daygrid": "^5.7.0",
+    "@fullcalendar/interaction": "^5.7.0",
+    "@fullcalendar/timegrid": "^5.7.0",
+    "@fullcalendar/vue": "^5.7.0",
+    "@inotom/vue-go-top": "^1.3.0",
+    "apexcharts": "^3.28.1",
+    "axios": "^0.21.1",
+    "bootstrap": "^5.0.1",
+    "bootstrap-vue": "^2.21.2",
+    "chart.js": "^2.9.4",
+    "cookieparser": "^0.1.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "core-js": "^3.6.5",
+    "croppie": "^2.6.5",
+    "cross-env": "^7.0.3",
+    "docx-preview": "^0.1.11",
+    "element-ui": "2.15.7",
+    "exceljs": "^4.3.0",
+    "file-saver": "^2.0.5",
+    "flatpickr": "^4.6.13",
+    "gsap": "^3.8.0",
+    "highlight.js": "^9.13.1",
+    "image-to-base64": "^2.2.0",
+    "javascript-time-ago": "^2.5.7",
+    "jquery": "^3.6.0",
+    "js-cookie": "^2.2.1",
+    "jwt-decode": "^3.1.2",
+    "material-design-icons-iconfont": "^6.1.0",
+    "moment": "^2.29.1",
+    "moment-lunar": "0.0.4",
+    "object-hash": "^3.0.0",
+    "pdfvuer": "1.7.5",
+    "quill-image-drop-module": "^1.0.3",
+    "quill-image-resize-module": "^3.0.0",
+    "quill-image-resize-vue": "^1.0.4",
+    "quill-video-resize-module": "^1.0.2",
+    "sb-admin-2": "^3.3.8",
+    "sweetalert2": "^11.0.11",
+    "vee-validate": "^3.4.7",
+    "video.js": "^7.20.2",
+    "vue": "^2.6.11",
+    "vue-apexcharts": "^1.6.2",
+    "vue-axios": "^3.2.4",
+    "vue-cal": "^3.10.1",
+    "vue-chartjs": "^3.5.1",
+    "vue-class-component": "^7.2.6",
+    "vue-cookies": "^1.7.4",
+    "vue-croppie": "^2.0.2",
+    "vue-debounce": "^4.0.0",
+    "vue-doc-preview": "^0.3.2",
+    "vue-dragscroll": "^3.0.1",
+    "vue-dynamic-dropdown": "^1.0.12",
+    "vue-flatpickr-component": "^8.1.6",
+    "vue-functional-calendar": "^2.9.4",
+    "vue-google-oauth2": "^1.5.8",
+    "vue-json-excel": "^0.3.0",
+    "vue-quick-chat": "^1.2.8",
+    "vue-quill-editor": "^3.0.6",
+    "vue-router": "^3.5.1",
+    "vue-textarea-autosize": "^1.1.1",
+    "vue-toastification": "^1.7.11",
+    "vue-video-player": "^4.0.0",
+    "vue2-datepicker": "^3.9.0",
+    "vue2-dropzone": "^3.6.0",
+    "vue2-editor": "^2.10.3",
+    "vuelidate": "^0.7.6",
+    "vuetify": "^2.5.1",
+    "vuex": "^3.6.2",
+    "vuex-persistedstate": "^4.0.0",
+    "webpack-bundle-tracker": "^1.0.0",
+    "xlsx": "^0.17.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "^5.0.8",
+    "@vue/cli-plugin-unit-jest": "^4.5.13",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/test-utils": "^1.0.3",
+    "css-loader": "^5.2.6",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-prettier-vue": "^4.2.0",
+    "eslint-plugin-vue": "^8.7.1",
+    "node-sass": "^6.0.1",
+    "prettier": "^2.5.0",
+    "sass": "^1.34.0",
+    "sass-loader": "^10.2.0",
+    "style-loader": "^2.0.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended",
+      "plugin:prettier/recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {
+      "vue/multi-word-component-names": "off",
+      "vue/attribute-hyphenation": "off",
+      "vue/no-mutating-props": "off",
+      "no-unused-vars": "off",
+      "vue/no-useless-template-attributes": "off"
+    },
+    "overrides": [
+      {
+        "files": [
+          "**/__tests__/*.{j,t}s?(x)",
+          "**/tests/unit/**/*.spec.{j,t}s?(x)"
+        ],
+        "env": {
+          "jest": true
+        }
+      },
+      {
+        "files": [
+          "**/__tests__/*.{j,t}s?(x)",
+          "**/tests/unit/**/*.spec.{j,t}s?(x)"
+        ],
+        "env": {
+          "jest": true
+        }
+      }
+    ]
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

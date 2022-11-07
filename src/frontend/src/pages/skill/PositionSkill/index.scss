@@ -1,0 +1,28 @@
+.activeHidden {
+  display: none!important;
+}
+
+.item{
+  border: 1px solid #EBEEF5 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.el-form-item {
+  margin: 0 10px !important;
+}
+
+.skill-content{
+  width: 80%;
+}
+
+.rate-start{
+  width: 100%;
+}
+
+.author{
+  font-size: 13px;
+}

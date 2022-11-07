@@ -1,0 +1,7 @@
+/env
+/venv
+/src/dist
+/src/static
+/src/frontend/node_modlues
+**/__pycache__
+**/package-lock.json

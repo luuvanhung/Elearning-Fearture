@@ -1,0 +1,52 @@
+.reminder-form .el-row {
+  .el-col {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+}
+
+.el-input-number--small {
+  width: 77px !important;
+}
+
+.el-button--text span:hover {
+  color: #25c9d0;
+}
+
+.add-reminder-row span {
+  color: #707070;
+  font-weight: 600;
+  font-style: italic;
+  margin-left: 3px;
+}
+
+@media screen and (max-width: 1860px) {
+  .el-dialog {
+    width: 60% !important;
+  }
+}
+
+@media screen and (max-width: 1492px) {
+  .el-dialog {
+    width: 65% !important;
+  }
+}
+
+@media screen and (max-width: 1244px) {
+  .el-dialog {
+    width: 75% !important;
+  }
+}
+
+@media screen and (max-width: 1066px) {
+  .el-dialog {
+    width: 90% !important;
+  }
+}
+
+@media screen and (max-width: 933px) {
+  .el-dialog {
+    width: 100% !important;
+  }
+}

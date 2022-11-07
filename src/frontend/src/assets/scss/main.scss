@@ -1,0 +1,703 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+$body-bg: #000;
+$body-color: #111;
+
+// @import '~bootstrap/scss/bootstrap';
+// @import '~bootstrap-vue/src/style.scss';
+// @import '~bootstrap/dist/css/bootstrap.css';
+// @import '~bootstrap-vue/dist/bootstrap-vue.css';
+// @import '~sb-admin-2/dist/css/sb-admin-2.min.css';
+
+@import '~croppie/croppie.css';
+@import '~vue-toastification/dist/index.css';
+@import '~vue-toastification/dist/index.css';
+
+@import '~@fullcalendar/common/main.css';
+@import '~@fullcalendar/daygrid/main.css';
+@import '~@fullcalendar/timegrid/main.css';
+
+.w-6 {
+    width: 6rem;
+}
+
+.w-25 {
+    width: 25%
+}
+
+.w-15 {
+    width: 15%
+}
+
+.w-55 {
+    width: 55% !important;
+}
+
+.error {
+    margin-top: 1rem;
+    color: #e74a3b !important;
+    position: relative;
+    line-height: 1;
+    width: 12.5rem;
+    font-size: 1rem !important;
+}
+
+.nav-menu-active {
+  width: calc(100vw - 250px);
+  transition: all 0.5s ease-in-out;
+}
+
+.nav-menu-deactive {
+  margin-left: 90px;
+  transition: all 0.5s ease-in-out;
+}
+
+.mobile-nav-toggle {
+  min-width: 5vh;
+  max-width: 10vh;
+  max-height: 10vh;
+  padding: 3px;
+  border-radius: 2px;
+}
+
+.mybcrumb {
+  margin-left: 5vh;
+}
+.nav-menu-active .mybcrumb {
+  margin-left: 0;
+}
+
+.text-monospace {
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace!important
+}
+
+.text-justify {
+  text-align: justify!important
+}
+
+.text-wrap {
+  white-space: normal!important
+}
+
+.text-nowrap {
+  white-space: nowrap!important
+}
+
+.text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap
+}
+
+.text-left {
+  text-align: left!important
+}
+
+.text-right {
+  text-align: right!important
+}
+
+.text-center {
+  text-align: center!important
+}
+
+.text-white {
+  color: #fff!important
+}
+
+.text-primary {
+  color: #4e73df!important
+}
+
+a.text-primary:focus, a.text-primary:hover {
+  color: #224abe!important
+}
+
+.text-secondary {
+  color: #858796!important
+}
+
+a.text-secondary:focus, a.text-secondary:hover {
+  color: #60616f!important
+}
+
+.text-success {
+  color: #1cc88a!important
+}
+
+a.text-success:focus, a.text-success:hover {
+  color: #13855c!important
+}
+
+.text-info {
+  color: #36b9cc!important
+}
+
+a.text-info:focus, a.text-info:hover {
+  color: #258391!important
+}
+
+.text-warning {
+  color: #f6c23e!important
+}
+
+a.text-warning:focus, a.text-warning:hover {
+  color: #dda20a!important
+}
+
+.text-danger {
+  color: #e74a3b!important
+}
+
+a.text-danger:focus, a.text-danger:hover {
+  color: #be2617!important
+}
+
+.text-light {
+  color: #f8f9fc!important
+}
+
+a.text-light:focus, a.text-light:hover {
+  color: #c2cbe5!important
+}
+
+.text-dark {
+  color: #5a5c69!important
+}
+
+a.text-dark:focus, a.text-dark:hover {
+  color: #373840!important
+}
+
+.form-control {
+  .el-input__inner {
+    border-radius:50px !important;
+    padding: 1.5rem 1rem;
+  }
+}
+
+.bg-color-primary {
+  background: #25c9d0 !important;
+}
+.bg-color-sidebar-primary {
+  background: #25c9d0 !important;
+  min-height: 100vh;
+  max-width: 250px !important;
+}
+
+.bg-header-table {
+  background: #25c9d0 !important;
+  color: white !important;
+  text-align: center !important;
+}
+.el-table__header-wrapper {
+  border-top-left-radius:10px;
+  border-top-right-radius: 10px;
+}
+
+.el-tree-node__content {
+  margin: 5px 0px !important;
+  height: auto !important;
+  align-items: flex-start !important;
+}
+
+@media (min-width: 768px) {
+  .main-contain {
+    max-width: calc(100% - 250px) !important;
+  }
+
+  .navbar-container {
+    max-width: calc(100% - 250px) !important;
+    width: calc(100% - 250px) !important;
+  }
+
+
+}
+
+.fc-media-screen  {
+  .fc-header-toolbar {
+    display: flex;
+    flex-wrap: wrap!important;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .fc-header-toolbar {
+    .fc-toolbar-chunk{
+      display: flex;
+      justify-content: space-between !important;
+      width: 100% !important;
+      margin-top: 10px;
+
+      .fc-toolbar-title {
+        width: 100%;
+        text-align: center;
+      }
+
+    }
+
+    .fc-toolbar-chunk:nth-last-child(1) {
+      .fc-button-group {
+        width: 100%!important;
+        justify-content: center!important;
+      }
+
+    }
+
+  }
+
+  .el-tree {
+    .el-tree-node {
+      overflow-x: scroll;
+    }
+    .custom-tree-node {
+      div:nth-last-child(1){
+        margin-left: auto;
+      }
+    }
+  }
+
+}
+
+.cursor-button {
+  cursor: pointer;
+}
+
+// Quill-editor Styling
+span.quill-editor-content{
+  h1{
+    font-size: 26px;
+    line-height: 37px;
+    padding: 8px 0;
+  }
+  h2{
+    font-size: 20px;
+    line-height: 28px;
+    padding: 6px 0;
+  }
+  h3{
+    font-size: 16px;
+    line-height: 22px;
+    padding: 4px 0;
+  }
+  h4{
+    font-size: 14px;
+    line-height: 18px;
+    padding: 2px 0;
+  }
+  h5{
+    font-size: 11px;
+    line-height: 15px;
+  }
+  h6{
+    font-size: 9px;
+    line-height: 12px;
+  }
+
+  // Code
+  code{
+    font-family: monospace;
+    background-color: #ecf0f3;
+    padding: 0 1px 0 1px;
+    border-radius: 3px;
+  }
+
+  // Anchor tag
+  a{
+    color: #068286;
+    text-decoration: none;
+    background-color: #fff;
+    &:hover{
+      text-decoration: underline;
+      color: #25C9D0;
+    }
+  }
+
+  // Blockquotes
+  blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+  }
+  blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 3em;
+    line-height: 0.1em;
+    vertical-align: -0.4em;
+    margin-right: 5px;
+  }
+
+  // Code syntax display
+  pre.ql-syntax{
+    background-color: #23241f;
+    border: 1px solid #ddd;
+    border-left: 3px solid ;
+    color: #f8f8f2;
+    page-break-inside: avoid;
+    font-family: monospace;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1em 1.5em;
+    display: block;
+    word-wrap: break-word;
+  }
+
+  // Font size
+  p {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 14px 0;
+    .ql-size-small{
+      font-size: 10px;
+      line-height: 14px;
+    }
+    .ql-size-large{
+      font-size: 20px;
+      line-height: 28px;
+    }
+    .ql-size-huge{
+      font-size: 33px;
+      line-height: 46px;
+    }
+  }
+
+  // Font family
+  .ql-font-serif{
+    font-family: serif;
+  }
+  .ql-font-monospace{
+    font-family: monospace;
+  }
+
+  // Text align
+  .ql-align-center{
+    text-align: center;
+  }
+  .ql-align-right{
+    text-align: right;
+  }
+  .ql-align-justify{
+    text-align: justify;
+  }
+
+  // Text indent
+  .ql-indent-1{
+    text-indent: 50px;
+  }
+  .ql-indent-2{
+    text-indent: 100px;
+  }
+  .ql-indent-3{
+    text-indent: 150px;
+  }
+  .ql-indent-4{
+    text-indent: 200px;
+  }
+  .ql-indent-5{
+    text-indent: 250px;
+  }
+  .ql-indent-6{
+    text-indent: 300px;
+  }
+  .ql-indent-7{
+    text-indent: 350px;
+  }
+  .ql-indent-8{
+    text-indent: 400px;
+  }
+
+  .ql-video{
+    width: 100%;
+  }
+}
+.quill-editor {
+  .ql-tooltip.ql-editing {
+    z-index: 9998;
+  }
+}
+.editor-form {
+  min-height: 100px;
+  max-height: fit-content;
+  :deep(iframe) {
+    pointer-events: none;
+  }
+  :deep(.ql-editor) {
+    min-height: 100px !important;
+    color: black;
+    font-size: large;
+  }
+  .ql-toolbar {
+    visibility: hidden;
+  }
+  .ql-container.ql-snow {
+    border: none;
+  }
+  div {
+    &:focus-within {
+      transition: all 0.4s ease-in-out;
+      outline: none;
+      .ql-toolbar {
+        visibility: visible;
+      }
+      .ql-container.ql-snow {
+        border: 1px solid rgba(0, 0, 0, 0.24);
+      }
+    }
+  }
+  &:focus-within {
+    transition: all 0.4s ease-in-out;
+    outline: none;
+    .ql-toolbar {
+      visibility: visible;
+    }
+    .ql-container.ql-snow {
+      border: 1px solid rgba(0, 0, 0, 0.24);
+    }
+  }
+}
+.view-form {
+  min-height: 100px;
+  max-height: fit-content;
+  :deep(.ql-editor) {
+    min-height: 100px !important;
+    color: black;
+    font-size: large;
+  }
+  :deep(.ql-toolbar.ql-snow) {
+    display: none;
+  }
+  :deep(.ql-container.ql-snow) {
+    border: none;
+  }
+}
+.ql-formats {
+  button {
+    position: relative;
+    /** Set a tooltip with css pseudo-elements, when buttons are hover, active or focus  */
+    &:hover::after,
+    &:active::after,
+    &:focus::after {
+      background: #25c9d0;
+      color: white;
+      padding: 0.5em;
+      border-radius: 0.4em;
+      top: -150%;
+      left: -10px;
+      z-index: 999999;
+      position: absolute;
+      font-size: 12px;
+    }
+  }
+  span {
+    &:hover::after,
+    &:active::after,
+    &:focus::after {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      background: #25c9d0;
+      color: white;
+      padding: 0.5em;
+      border-radius: 0.4em;
+      top: -220%;
+      z-index: 999999;
+      position: absolute;
+      font-size: 12px;
+    }
+  }
+}
+/** Set tooltip content for bold button **/
+.ql-bold {
+    &:hover::after,
+    &:active::after,
+    &:focus::after {
+        content: "Bold";
+    }
+}
+
+.ql-italic {
+    &:hover::after,
+    &:active::after,
+    &:focus::after {
+        content: "Italic";
+    }
+}
+
+.ql-underline {
+    &:hover::after,
+    &:active::after,
+    &:focus::after {
+        content: "Underline";
+    }
+}
+.ql-strike {
+    &:hover::after,
+    &:active::after,
+    &:focus::after {
+        content: "Strikeout";
+    }
+}
+.ql-blockquote {
+    &:hover::after,
+    &:active::after,
+    &:focus::after {
+        content: "Quote";
+    }
+}
+.ql-code-block {
+    &:hover::after,
+    &:active::after,
+    &:focus::after {
+        content: "Code block";
+    }
+}
+.ql-header[value="1"] {
+    &:hover::after,
+    &:active::after,
+    &:focus::after {
+        content: "Header 1";
+        top: -200%;
+    }
+}
+.ql-header[value="2"] {
+    &:hover::after,
+    &:active::after,
+    &:focus::after {
+        content: "Header 2";
+        top: -200%;
+    }
+}
+.ql-list[value="bullet"] {
+    &:hover::after,
+    &:active::after,
+    &:focus::after {
+        content: "Bulleted List";
+        top: -200%;
+    }
+}
+.ql-list[value="ordered"] {
+    &:hover::after,
+    &:active::after,
+    &:focus::after {
+        content: "Numbered List";
+        top: -200%;
+    }
+}
+.ql-script[value="sub"] {
+    &:hover::after,
+    &:active::after,
+    &:focus::after {
+        content: "Subscript";
+        top: -150%;
+    }
+}
+.ql-script[value="super"] {
+    &:hover::after,
+    &:active::after,
+    &:focus::after {
+        content: "Superscript";
+        top: -150%;
+    }
+}
+.ql-indent[value="-1"] {
+    &:hover::after,
+    &:active::after,
+    &:focus::after {
+        content: "Indent -1";
+        top: -200%;
+    }
+}
+.ql-indent[value="+1"] {
+    &:hover::after,
+    &:active::after,
+    &:focus::after {
+        content: "Indent +1";
+        top: -200%;
+    }
+}
+.ql-direction {
+    &:hover::after,
+    &:active::after,
+    &:focus::after {
+        content: "Direction";
+        top: -200%;
+    }
+}
+.ql-size {
+    &:hover::after,
+    &:active::after,
+    &:focus::after {
+        content: "Text size";
+    }
+}
+.ql-header {
+    &:hover::after,
+    &:active::after,
+    &:focus::after {
+        content: "Header size";
+    }
+}
+.ql-link {
+    &:hover::after,
+    &:active::after,
+    &:focus::after {
+        content: "Hyperlink";
+    }
+}
+.ql-image {
+    &:hover::after,
+    &:active::after,
+    &:focus::after {
+        content: "Image";
+    }
+}
+.ql-video {
+    &:hover::after,
+    &:active::after,
+    &:focus::after {
+        content: "Video";
+    }
+}
+.ql-color {
+    &:hover::after,
+    &:active::after,
+    &:focus::after {
+        content: "Color";
+
+    }
+}
+.ql-background {
+    &:hover::after,
+    &:active::after,
+    &:focus::after {
+        content: "Background";
+    }
+}
+.ql-font {
+    &:hover::after,
+    &:active::after,
+    &:focus::after {
+        content: "Font";
+    }
+}
+.ql-align {
+    &:hover::after,
+    &:active::after,
+    &:focus::after {
+        content: "Align";
+    }
+}
+.ql-clean {
+    &:hover::after,
+    &:active::after,
+    &:focus::after {
+        content: "Clean format";
+    }
+}

@@ -1,0 +1,31 @@
+# This configuration was used SourceLevel to review the ParadoxAi/olivia-core repository
+# on e9d4c30cff6ba3d4d00a80f0a4c19f92b8cef18e.
+# You can make this the default configuration for future reviews by moving this
+# file to your repository as `.sourcelevel.yml` and pushing it to GitHub, and tweak
+# it as you wish - To know more on how to change this file to better review your
+# repository you can go to https://docs.sourcelevel.io/configuration and see the configuration
+# details.
+---
+styleguide: sourcelevel/linters
+pull_requests:
+  enabled: true
+engines:
+  pep8:
+    enabled: true
+  fixme:
+    enabled: false
+  radon:
+    enabled: false
+  bandit:
+    enabled: false
+  eslint:
+    enabled: false
+  csslint:
+    enabled: false
+  remark-lint:
+    enabled: false
+exclude_paths:
+  - artifacts
+  - docker
+  - logs
+  - requirements

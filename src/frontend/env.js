@@ -1,0 +1,8 @@
+export default {
+  VUE_APP_IMAGE_URL: process.env.VUE_APP_IMAGE_URL,
+  VUE_APP_VALID_TIME: process.env.VUE_APP_VALID_TIME,
+  VUE_APP_BASE_URL: process.env.VUE_APP_BASE_URL,
+  VUE_APP_API_URL: process.env.VUE_APP_API_URL,
+  VUE_APP_END_MAIL: process.env.VUE_APP_END_MAIL,
+  VUE_APP_GOOGLE_CLIENT_ID: process.env.VUE_APP_GOOGLE_CLIENT_ID,
+};

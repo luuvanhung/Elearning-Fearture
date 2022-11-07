@@ -1,0 +1,74 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #ffffff;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1em;
+  font-weight: 300;
+  line-height: 1.7em;
+  color: #999;
+}
+
+.main-content {
+  width: 100%;
+  margin-left: 0.01%;
+}
+
+.main-profile {
+  width: 100%;
+}
+
+.background {
+  background: #25c9d0;
+}
+
+/* table */
+.table {
+  width: 100%;
+
+  thead {
+    background-color: #25c9d0;
+    color: white;
+  }
+
+  img {
+    max-width: 100%;
+  }
+}
+
+.table {
+  .thead-light {
+    tr {
+      .stt {
+        width: 5%;
+      }
+
+      .date {
+        width: 15%;
+      }
+
+      .session {
+        width: 50%
+      }
+
+      .lunch {
+        width: 10%;
+      }
+
+      .action {
+        width: 10%;
+      }
+    }
+  }
+}
+
+.dont-break-out {
+  word-wrap: break-word !important;      /* IE 5.5-7 */
+  white-space: -moz-pre-wrap !important; /* Firefox 1.0-2.0 */
+  white-space: pre-wrap !important;      /* current browsers */
+  overflow-wrap: break-word !important;
+  hyphens: auto;
+  word-break: break-word !important;
+}

@@ -1,0 +1,78 @@
+p {
+  margin-bottom: 0rem;
+}
+
+.color-bg {
+  background-color: #45BCF3;
+}
+
+.color-bg-2 {
+  background-color: #f9f5dc;
+}
+
+.el-checkbox__input.is-checked + .el-checkbox__label {
+  color: #25c9d0 !important;
+}
+
+.box-description-lunar {
+  background-color: #45BCF3;
+  width: 5px;
+  height: 5px;
+  border: 4px solid #45BCF3;
+  border-radius: 2px;
+  padding: 5px;
+}
+
+.box-description-current {
+  background-color: #f9f5dc;
+  width: 5px;
+  height: 5px;
+  border: 4px solid #f9f5dc;
+  border-radius: 2px;
+  padding: 5px;
+}
+
+.box-description-veggie {
+  background-color: #90BE6D;
+  width: 5px;
+  height: 5px;
+  border: 4px solid #90BE6D;
+  border-radius: 2px;
+  padding: 5px;
+}
+
+.box-description-leave {
+  background-color: #25c9d0;
+  width: 5px;
+  height: 5px;
+  border: 4px solid #25c9d0;
+  border-radius: 2px;
+  padding: 5px;
+}
+
+.box-description-lunch {
+  background-color: #F9C74F;
+  width: 5px;
+  height: 5px;
+  border: 4px solid #F9C74F;
+  border-radius: 2px;
+  padding: 5px;
+}
+
+.description-detail {
+  width: 100%;
+  display: flex;
+}
+
+.btn-calendar, .btn-calendar:hover, .btn-calendar:focus {
+  color: #ffffff;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: bold;
+  width: 180px;
+  cursor: default;
+}
+
+.button-description {
+  cursor: default;
+}

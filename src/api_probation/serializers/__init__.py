@@ -1,0 +1,13 @@
+from .probation_overall_comment import ProbationOverallCommentSerializer
+from .probation_competence import ProbationCompetenceSerializer
+from .evaluation_template import EvaluationTemplateSerializer
+from .evaluation_template_competence import EvaluationTemplateCompetenceSerializer
+from .evaluation_template_competence_assessor_role import (
+    EvaluationTemplateCompetenceAssessorRoleSerializer,
+)
+from .evaluation_template_overall_comment import (
+    EvaluationTemplateOverallCommentSerializer,
+)
+from .evaluation_template_overall_comment_assessor_role import (
+    EvaluationTemplateOverallCommentAssessorRoleSerializer,
+)

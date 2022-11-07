@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans");
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Nunito Sans";
+  color: #0e0620;
+  font-size: 1em;
+}
+button {
+  font-family: "Nunito Sans";
+}
+ul {
+  list-style-type: none;
+  padding-inline-start: 35px;
+}
+svg {
+  width: 100%;
+  visibility: hidden;
+}
+h1 {
+  font-size: 7.5em;
+  margin: 15px 0px;
+  font-weight: bold;
+}
+h2 {
+  font-weight: bold;
+}
+.container {
+  display: flex;
+  min-height: calc(100vh - 60px);
+
+  .btn-container {
+    display: flex;
+
+    .btn {
+      z-index: 1;
+      overflow: hidden;
+      background: transparent;
+      position: relative;
+      padding: 8px 50px;
+      border-radius: 30px;
+      cursor: pointer;
+      font-size: 1em;
+      letter-spacing: 2px;
+      transition: 0.2s ease;
+      font-weight: bold;
+      margin: 5px 0px;
+      margin-top: 30px;
+      margin-right: 20px;
+      &.green {
+        border: 4px solid#25c9d0;
+        color: #0e0620;
+        &:before {
+          content: "";
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 0%;
+          height: 100%;
+          background: #25c9d0;
+          z-index: -1;
+          transition: 0.2s ease;
+        }
+        &:hover {
+          color: #fff;
+          background: #25c9d0;
+          transition: 0.2s ease;
+          &:before {
+            width: 100%;
+          }
+        }
+      }
+      &.blue {
+        border: 4px solid#f49880;
+        color: #0e0620;
+        &:before {
+          content: "";
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 0%;
+          height: 100%;
+          background: #f49880;
+          z-index: -1;
+          transition: 0.2s ease-out;
+        }
+        &:hover {
+          color: #fff;
+          background: #f49880;
+          transition: 0.2s ease-out;
+          &:before {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    display: block;
+  }
+}

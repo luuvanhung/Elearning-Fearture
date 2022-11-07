@@ -1,0 +1,36 @@
+.custom-tree-node {
+  flex: 1;
+  display: flex;
+  align-items: center;;
+  justify-content: space-between;
+  font-size: 14px;
+  padding-right: 8px;
+  flex-wrap: wrap;
+}
+
+.title-tree {
+  min-height: 24px;
+  padding: 10 0px !important;
+}
+
+.field-input {
+  width: auto !important;
+  margin-right: 5px;
+}
+.option-icon {
+  width: 12px !important;
+  height: 12px !important;
+}
+
+.el-select {
+  margin-right: 5px;
+}
+
+.title-tree a{
+  color :#707070;
+  text-decoration: none;
+}
+
+.title-tree a:hover{
+  color : #25C9D0;
+}

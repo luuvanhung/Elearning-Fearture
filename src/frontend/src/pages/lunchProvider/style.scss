@@ -1,0 +1,23 @@
+.btn_submit {
+  background-color: #25c9d0;
+  color: white;
+}
+
+.el-checkbox__inner {
+  height: 22px;
+  width: 22px;
+}
+
+.el-checkbox__inner::after {
+  height: 14px;
+  left: 8px;
+}
+
+.dont-break-out {
+  word-wrap: break-word !important;      /* IE 5.5-7 */
+  white-space: -moz-pre-wrap !important; /* Firefox 1.0-2.0 */
+  white-space: pre-wrap !important;      /* current browsers */
+  overflow-wrap: break-word !important;
+  hyphens: auto;
+  word-break: break-word !important;
+}
